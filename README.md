@@ -5,3 +5,4 @@
 - [ ] [Tailwind CSS Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=4wGmylafgM4)
 - [ ] [Tailwind CSS tutorial - Learn how to build websites using a utility-first CSS framework](https://themesberg.com/blog/tailwind-css/tutorial)
 - [ ] [Learn Tailwind CSS - A Beginner's Guide](https://wsvincent.com/learn-tailwind-css-beginners-guide/)
+- [ ] [Get Started with Tailwind CSS in 15 Minutes](https://scotch.io/tutorials/get-started-with-tailwind-css-in-15-minutes)
