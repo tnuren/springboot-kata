@@ -1,15 +1,18 @@
 package io.github.tnuren.kata.domain;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
-@Getter @Setter
-public class Multiplication {
 
-    private int factorA;
-    private int factorB;
+@RequiredArgsConstructor
+@Getter
+@ToString
+@EqualsAndHashCode
+public final class Multiplication {
 
-    private int result;
+    private final int factorA;
+    private final int factorB;
+
+    private final int result;
 
     public Multiplication(int factorA, int factorB) {
         this.factorA = factorA;
@@ -17,12 +20,7 @@ public class Multiplication {
         this.result = factorA * factorB;
     }
 
-    @Override
-    public String toString() {
-        return "Multiplication{" +
-                "factorA=" + factorA +
-                ", factorB=" + factorB +
-                ", result(A*B)=" + result +
-                '}';
+    Multiplication() {
+        this(0, 0);
     }
 }
